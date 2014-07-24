@@ -19,7 +19,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
   
     ViewTest *viewtest = [[[NSBundle mainBundle] loadNibNamed:@"View" owner:self options:nil] lastObject];
     [self.view addSubview:viewtest];
@@ -30,7 +29,6 @@
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:viewtest attribute:NSLayoutAttributeTrailing relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeRight multiplier:1.0 constant:0.0f]];
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:viewtest attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:0.0f]];
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:viewtest attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeBottom multiplier:1.0 constant:0.0f]];
-
 }
 
 @end
