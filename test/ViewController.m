@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "ViewTest.h"
 
 @interface ViewController ()
+
 
 @end
 
@@ -18,12 +20,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-}
+  
+    ViewTest *viewtest = [[[NSBundle mainBundle] loadNibNamed:@"View" owner:self options:nil] lastObject];
+    [self.view addSubview:viewtest];
+  
+    viewtest.translatesAutoresizingMaskIntoConstraints = NO;
+  
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:viewtest attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeft multiplier:1.0 constant:0.0f]];
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:viewtest attribute:NSLayoutAttributeTrailing relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeRight multiplier:1.0 constant:0.0f]];
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:viewtest attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:0.0f]];
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:viewtest attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeBottom multiplier:1.0 constant:0.0f]];
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

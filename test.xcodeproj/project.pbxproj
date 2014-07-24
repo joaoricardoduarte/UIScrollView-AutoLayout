@@ -21,6 +21,8 @@
 		CF10E583198112D00042FECD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF10E565198112D00042FECD /* UIKit.framework */; };
 		CF10E58B198112D00042FECD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF10E589198112D00042FECD /* InfoPlist.strings */; };
 		CF10E58D198112D00042FECD /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF10E58C198112D00042FECD /* testTests.m */; };
+		CF10E5971981133E0042FECD /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF10E5961981133E0042FECD /* View.xib */; };
+		CF10E59A19811A7D0042FECD /* ViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CF10E59919811A7D0042FECD /* ViewTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		CF10E588198112D00042FECD /* testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testTests-Info.plist"; sourceTree = "<group>"; };
 		CF10E58A198112D00042FECD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF10E58C198112D00042FECD /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		CF10E5961981133E0042FECD /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		CF10E59819811A7D0042FECD /* ViewTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTest.h; sourceTree = "<group>"; };
+		CF10E59919811A7D0042FECD /* ViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +120,13 @@
 				CF10E570198112D00042FECD /* AppDelegate.h */,
 				CF10E571198112D00042FECD /* AppDelegate.m */,
 				CF10E573198112D00042FECD /* Main.storyboard */,
+				CF10E59819811A7D0042FECD /* ViewTest.h */,
+				CF10E59919811A7D0042FECD /* ViewTest.m */,
 				CF10E576198112D00042FECD /* ViewController.h */,
 				CF10E577198112D00042FECD /* ViewController.m */,
 				CF10E579198112D00042FECD /* Images.xcassets */,
 				CF10E568198112D00042FECD /* Supporting Files */,
+				CF10E5961981133E0042FECD /* View.xib */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -228,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF10E5971981133E0042FECD /* View.xib in Resources */,
 				CF10E57A198112D00042FECD /* Images.xcassets in Resources */,
 				CF10E56C198112D00042FECD /* InfoPlist.strings in Resources */,
 				CF10E575198112D00042FECD /* Main.storyboard in Resources */,
@@ -249,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF10E59A19811A7D0042FECD /* ViewTest.m in Sources */,
 				CF10E578198112D00042FECD /* ViewController.m in Sources */,
 				CF10E572198112D00042FECD /* AppDelegate.m in Sources */,
 				CF10E56E198112D00042FECD /* main.m in Sources */,
