@@ -11,9 +11,6 @@
 @interface ViewTest ()
 
 @property(nonatomic, weak) IBOutlet UILabel *firstLabel;
-@property(nonatomic, weak) IBOutlet NSLayoutConstraint *myconstraint;
-@property(nonatomic, weak) IBOutlet UIView *contentView;
-@property(nonatomic, weak) IBOutlet UIScrollView *scrollView;
 
 @end
 

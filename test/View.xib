@@ -63,9 +63,7 @@
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
-                <outlet property="contentView" destination="rjP-sv-ESq" id="gTx-Aj-maa"/>
                 <outlet property="firstLabel" destination="pyp-ts-h6I" id="3Vu-I3-rfM"/>
-                <outlet property="scrollView" destination="dFr-KC-YIh" id="P5c-st-lNC"/>
             </connections>
         </view>
     </objects>
