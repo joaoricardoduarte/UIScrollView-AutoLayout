@@ -2,4 +2,4 @@ language: objective-c
 
 script:
 - xcodebuild -scheme test -sdk iphonesimulator
-- xcodebuild -scheme testTests -sdk iphonesimulator
+- xcodebuild test -scheme testTests -sdk iphonesimulator
