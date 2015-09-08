@@ -30,6 +30,7 @@
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:viewtest attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:0.0f]];
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:viewtest attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeBottom multiplier:1.0 constant:0.0f]];
   
+  
 }
 
 @end
