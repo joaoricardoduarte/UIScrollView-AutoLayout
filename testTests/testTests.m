@@ -28,7 +28,15 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    //XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+  
+    NSSet *mySet = [[NSSet alloc] init];
+    NSSet *setTwo = [[NSSet alloc] initWithArray:@[ @"1", @"2", @"3" ]];
+    
+    XCTAssertTrue( [mySet count] == 0, @"Set should be empty" );
+    XCTAssertTrue( [setTwo count] == 3, @"We should have three items" );
 }
+
+
 
 @end
