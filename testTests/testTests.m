@@ -37,6 +37,4 @@
     XCTAssertTrue( [setTwo count] == 3, @"We should have three items" );
 }
 
-
-
 @end
