@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F74818C8-A48A-4743-B8F9-F7FE31485FDF</string>
 	<key>IDESourceControlProjectName</key>
-	<string>test</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7E11F154E2D23385A3466F91A42DD5AEBD523887</key>
 		<string>https://github.com/joaoricardoduarte/UIScrollView-AutoLayout.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>test.xcodeproj</string>
+	<string>test.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7E11F154E2D23385A3466F91A42DD5AEBD523887</key>
